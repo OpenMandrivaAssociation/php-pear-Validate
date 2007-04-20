@@ -6,7 +6,7 @@
 
 Summary:	%{_pearname} - Validation class
 Name:		php-pear-%{_pearname}
-Version:	0.6.3
+Version:	0.7.0
 Release:	%mkrel 1
 License:	BSD
 Group:		Development/PHP
@@ -84,5 +84,3 @@ rm -rf %{buildroot}
 %dir %{_datadir}/pear/%{_class}/Finance
 %{_datadir}/pear/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-

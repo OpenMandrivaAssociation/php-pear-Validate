@@ -7,7 +7,7 @@
 Summary:	%{_pearname} - Validation class
 Name:		php-pear-%{_pearname}
 Version:	0.7.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	BSD
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2

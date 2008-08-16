@@ -6,18 +6,18 @@
 
 Summary:	%{_pearname} - Validation class
 Name:		php-pear-%{_pearname}
-Version:	0.7.0
-Release:	%mkrel 3
+Version:	0.8.1
+Release:	%mkrel 1
 License:	BSD
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Validate/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Package to validate various datas. It includes :

@@ -6,8 +6,8 @@
 
 Summary:	%{_pearname} - Validation class
 Name:		php-pear-%{_pearname}
-Version:	0.8.1
-Release:	%mkrel 2
+Version:	0.8.2
+Release:	%mkrel 1
 License:	BSD
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz

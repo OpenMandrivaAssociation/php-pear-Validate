@@ -4,8 +4,8 @@
 %define		_requires_exceptions pear(FR_insee_country_codes.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	0.8.2
-Release:	%mkrel 3
+Version:	0.8.3
+Release:	%mkrel 1
 Summary:	Validation class
 License:	BSD
 Group:		Development/PHP

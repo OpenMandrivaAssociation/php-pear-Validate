@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.8.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Validation class
 License:	BSD
 Group:		Development/PHP

@@ -1,8 +1,6 @@
 %define		_class		Validate
 %define		upstream_name	%{_class}
 
-%define		_requires_exceptions pear(FR_insee_country_codes.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	0.8.4
 Release:	%mkrel 3

@@ -2,13 +2,13 @@
 %define		upstream_name	%{_class}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.8.4
-Release:	4
+Version:	0.8.5
+Release:	1
 Summary:	Validation class
 License:	BSD
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Validate/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/Validate-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -137,4 +137,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.4.1-1mdk
 - initial Mandriva package (PLD import)
+
 

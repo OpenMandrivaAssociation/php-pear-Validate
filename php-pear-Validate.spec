@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.8.5
-Release:	1
+Release:	2
 Summary:	Validation class
 License:	BSD
 Group:		Development/PHP

@@ -4,7 +4,7 @@
 Summary:	Validation class
 Name:		php-pear-%{modname}
 Version:	0.8.5
-Release:	10
+Release:	11
 License:	BSD
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Validate/
@@ -41,6 +41,8 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 
 %files
 %doc %{modname}-%{version}/docs/*
+%{_datadir}/pear/doc/Validate/LICENSE
 %{_datadir}/pear/%{_class}.php
 %{_datadir}/pear/packages/%{modname}.xml
-
+%{_datadir}/pear/doc/Validate/docs/*
+%{_datadir}/pear/test/Validate/tests/*

@@ -7,7 +7,7 @@ Version:	0.8.5
 Release:	12
 License:	BSD
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Validate/
+Url:		https://pear.php.net/package/Validate/
 Source0:	http://download.pear.php.net/package/Validate-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear

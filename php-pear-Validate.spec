@@ -3,8 +3,8 @@
 
 Summary:	Validation class
 Name:		php-pear-%{modname}
-Version:	0.8.5
-Release:	12
+Version:	0.8.6
+Release:	1
 License:	BSD
 Group:		Development/PHP
 Url:		https://pear.php.net/package/Validate/
